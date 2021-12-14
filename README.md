@@ -40,7 +40,8 @@ Tables_in_GestionFomation |
   //tapez la commande suivant     
  -select etudiant.*,formation.* from etudiant,formation where etudiant.id_for=formation.id_for;
               
-              +----+----------+-----------+--------+--------+--------+--------------------+
+              
++----+----------+-----------+--------+--------+--------+--------------------+
 | id | nom      | prenom    | id_sal | id_for | id_for | libelle_for        |
 +----+----------+-----------+--------+--------+--------+--------------------+
 |  1 | Ingamar  | Biernat   |      2 |      2 |      2 | Sales              |
