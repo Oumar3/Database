@@ -24,8 +24,9 @@ Tables_in_GestionFomation |
     // selectionner la base de donnée 
           -use gestion_Formation;
           
-    // importation de nos tables avec les valeurs
-          -source /chemin du base de donnée/nom De fichier.sql
+    // importation de nos tables avec les valeurs qui sont dans le fichier GestionFormation.sql
+    
+          - source /chemin du base de donnée/GestionFormation.sql
           
     // verifiée si les tables sont deja importées
            -show tables;
